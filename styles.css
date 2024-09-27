@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilização da barra de navegação */
+.header {
+    background: url('img/bg-header.jpg') no-repeat center center/cover;
+    color: #300b0b;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.navbar__logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar__links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar__links a:hover {
+    color: #ffd700; /* Cor dourada */
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero__titulo {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero__intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.container__botao {
+    padding: 1rem 2rem;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container__botao:hover {
+    background-color: #218838;
+}
+
+/* Estilização da seção de filmes */
+.filmes {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.filmes__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.filmes__lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem; /* Espaçamento entre os filmes */
+}
+
+.filme {
+    background-color: #ffffff; /* Cor de fundo do filme */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    max-width: 220px; /* Largura máxima para manter a consistência */
+    margin: 0 auto; /* Centraliza o filme */
+    text-align: center; /* Centraliza o texto */
+}
+
+.filme:hover {
+    transform: translateY(-5px);
+}
+
+.filme__imagem {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    border-bottom: 2px solid #007BFF; /* Borda abaixo da imagem */
+}
+
+.filme__titulo {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.filme__descricao {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 1rem;
+}
+
+/* Estilização da seção de assinatura */
+.assinatura {
+    padding: 4rem 2rem;
+    color: #000000;
+    position: relative;
+}
+
+.assinatura__bg {
+    background-color: rgba(0, 123, 255, 0.8);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.assinatura__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.assinatura__descricao {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.assinatura__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.assinatura__input {
+    padding: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.assinatura__input:focus {
+    border: 2px solid #000000;
+    outline: none;
+}
+
+.assinatura__input::placeholder {
+    color: #fff;
+}
+
+/* Estilização do rodapé */
+.rodape {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+    color: #fff;
+}

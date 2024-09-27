@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assinatura de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="navbar__logo">Filmes Plus</a>
+                <ul class="navbar__links">
+                    <li><a href="#filmes">Filmes</a></li>
+                    <li><a href="#assinatura">Assinar</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1 class="hero__titulo">Assine e Aproveite Nossos Filmes!</h1>
+            <p class="hero__intro">Tenha acesso a uma vasta coleção de filmes e séries. Assine agora e comece a assistir!</p>
+            <a href="#assinatura" class="container__botao">Assinar Agora</a>
+        </div>
+    </header>
+
+    <section id="filmes" class="filmes container">
+        <h2 class="filmes__titulo">Nossos Filmes em Destaque</h2>
+        <div class="filmes__lista">
+            <div class="filme">
+                <img src="arquivos/v1.jfif" alt="Filme 1" class="filme__imagem">
+                <h3 class="filme__titulo">velozes e furiosos 1</h3>
+                <p class="filme__descricao">No primeiro filme da saga, Brian O'Conner, um policial disfarçado, infiltra-se no mundo das corridas de rua em Los Angeles. Ele se une a Dominic Toretto, um lendário piloto e mecânico, enquanto investiga uma série de roubos de caminhões. A lealdade e a amizade se tornam complicadas quando Brian se vê dividido entre seu dever e seu crescente envolvimento com a vida de Dom e sua família..</p>
+            </div>
+            <div class="filme">
+                <img src="arquivos/v7.jfif" alt="Filme 2" class="filme__imagem">
+                <h3 class="filme__titulo">velozes e furiosos 7</h3>
+                <p class="filme__descricao">Após a perda de um amigo, Dom e sua equipe se unem para enfrentar um novo inimigo, Deckard Shaw, que busca vingança pela morte de seu irmão. O filme traz ação eletrizante e emocionantes sequências de corrida enquanto a equipe luta para proteger seus entes queridos e enfrentar um adversário implacável.</p>
+            </div>
+            <div class="filme">
+                <img src="arquivos/v8.jfif" alt="Filme 3" class="filme__imagem">
+                <h3 class="filme__titulo">velozes e furiosos 8</h3>
+                <p class="filme__descricao">Neste capítulo, Dom é forçado a trair sua família ao se aliar a uma hacker chamada Cipher. Com a equipe dividida, eles precisam trabalhar juntos para trazê-lo de volta e impedir Cipher de implementar seus planos malignos. A ação se desenrola em locais exóticos, com perseguições de tirar o fôlego e reviravoltas inesperadas..</p>
+            </div>
+            <div class="filme">
+                <img src="arquivos/v9.jfif" alt="Filme 4" class="filme__imagem">
+                <h3 class="filme__titulo">velozes e furiosos 9</h3>
+                <p class="filme__descricao">Dom e sua equipe enfrentam um novo desafio quando o irmão perdido de Dom, Jakob, um assassino altamente habilidoso, aparece com um plano para dominar o mundo. Com temas de família e redenção, o filme traz cenas de ação espetaculares e a eterna luta entre lealdade e rivalidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="assinatura" class="assinatura container">
+        <div class="assinatura__bg">
+            <h2 class="assinatura__titulo">Assine Agora</h2>
+            <p class="assinatura__descricao">Preencha os campos abaixo e comece sua jornada cinematográfica!</p>
+            <form class="assinatura__form">
+                <input type="text" placeholder="Nome Completo" required class="assinatura__input">
+                <input type="email" placeholder="E-mail" required class="assinatura__input">
+                <input type="password" placeholder="Senha" required class="assinatura__input">
+                <button type="submit" class="container__botao">Começar a Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p class="rodape__texto">© 2024 Assinatura de Filmes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
